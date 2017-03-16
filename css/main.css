@@ -1,0 +1,178 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:700,300);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+
+.card__wrapper {
+    position: relative;
+    height: 320px;
+    margin-top: 70px; 
+background: #ddd;
+  font-family: 'Roboto Slab', sans-serif;
+  		color: #fff;
+  margin: 30px auto;
+   
+}
+
+
+.contact a {
+  color: #fff;
+  text-decoration: none;
+  transition: ease 0.3s 0;
+}
+.contact a:hover {
+  color: #ddd;
+}
+
+.contact__front, .contact__back{
+  width: 460px;
+	height: 355px;
+  margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.contact__header .contact__saying{
+  font-size:1em;
+}
+/* front pane, placed above back */
+.contact__front {
+  background-color:#2C3E50;
+   text-align:center;
+  overflow: hidden;
+}
+
+.contact__front-bottom{
+	height:70%;
+  width:100%;
+  background-color:#FF2D1E;
+  font-weight:bold;
+   margin-top:10px;
+  border-top: 2px solid #fff;
+}
+.contact__front-bottom p{
+  margin-top: 20px;
+  line-height:0.5;
+}
+
+.contact__header{
+  font-size:40px;
+  margin-top:40px;
+  color:#fff;
+  font-family: 'Lobster', cursive;
+  font-weight:200;
+}
+.contact__front .contact__saying{
+  margin-top:25px;
+  font-size:1em;
+  font-weight:300;
+  line-height:0.5em;
+}
+.contact__contact-links {
+  margin: 0;
+  padding: 0;
+}
+
+.contact__contact-links li {
+  display: inline;
+  margin-right: 40px;
+}
+.contact__encyc-link {
+  width: 250px;
+}
+
+.contact__encyc-link img {
+  float: left;
+  margin-right: 10px;
+}
+.contact__right{
+  float: right;
+  position:relative;
+  right:15px;
+  bottom: 10px;
+}
+.contact__social-links ul {
+  margin: 0;
+  padding: 0;
+}
+
+.contact__social-links li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.contact__footer {
+   overflow: hidden;
+  margin-top: 60px;
+}
+
+/* back, initially hidden pane */
+.contact__back {
+  opacity:0;
+  -webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.contact__back:hover{
+  opacity:1;
+}
+
+.contact__back-content{
+	height:100%;
+   background-color: rgba(0,0,0,0.3);
+}
+
+.contact__col1
+{
+  float:left;
+  background-color:#2C3E50;
+  width:50%;
+  height:100%;
+}
+
+
+.contact__photo
+{ 
+  height:10px;
+  position:absolute;
+  width:auto;
+  margin: 60px auto auto 25px;
+}
+
+.contact__col2
+{
+	float:left;
+   background-color:#FF2D1E;
+	width:50%;
+  height:100%;
+}
+
+.contact__col2 li
+{
+  margin-bottom:10px;
+  position:relative;
+}
+
+.contact__social-links-list
+{
+list-style-type: none;
+  float:left;
+  margin-top:60px;
+  margin-left:-10px;
+}
+.contact__contact
+{
+list-style-type: none;
+  float:left;
+margin-top:60px;
+  margin-left:-10px;
+}
+fa{
+	display:block;
+}
+
+.contact__fa-envelope{
+  width: 14px;
+}
