@@ -83,13 +83,14 @@
 
 .contact__encyc-link img {
   float: left;
-  margin-right: 10px;
+  margin-right: 10px
+  margin-left:10px;
 }
 .contact__right{
   float: right;
   position:relative;
   right:15px;
-  bottom: 10px;
+  bottom: 15px;
 }
 .contact__social-links ul {
   margin: 0;
